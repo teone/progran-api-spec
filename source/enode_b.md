@@ -73,3 +73,43 @@
     + eNBId: "591" (number) - Number of the E NODE B to delete
 
 + Response 204
+
+## E NODE B Profiles Collection [/api/enodeb/:eNBId/profile]
+
+### Add an Profile to E NODE B [PUT]
+
++ Parameters
+    + eNBId: "591" (number) - Number of the E NODE B to retrieve
+
++ Request (application/json)
+
+        {
+          "ProfileArray" :[
+            "Profile1",
+            "Profile2"
+          ]
+        }
++ Response 200 (application/json)
+
+        {    
+          "Result": 1,
+          "ErrCode": "Not Registered"
+        }
+
+### Delete all Profile from E NODE B [DELETE]
+
++ Parameters
+    + eNBId: "591" (number) - Number of the E NODE B to retrieve
+
++ Response 204
+
+## E NODE B Profiles Details [/api/profile/:eNBId/:profile_name]
+
+### Delete one Profile from E NODE B [DELETE]
+
++ Parameters
+    + eNBId: "591" (number) - Number of the E NODE B to retrieve
+    + profile_name: "Profile-30" (string) - Name of the Profiles
+
++ Response 204
+
