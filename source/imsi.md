@@ -1,9 +1,9 @@
-# Group IMSI
+# Group IMSI 
 
 Imsi is basic phone number object.
 Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
-## IMSI [/api/imsi]
+## IMSI Collection [/api/imsi]
 
 ### List all IMSI [GET]
 
@@ -31,11 +31,11 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 + Response 200 (application/json)
 
         {    
-          "Result"      : 1                   // M  1: OK, Other values: error
-          "ErrCode"     : "Not Registered"    // O  <"Not Registered" | "Unknown">
+          "Result": 1,
+          "ErrCode": "Not Registered"
         }
 
-## IMSI [/api/imsi/:imsi_number]
+## IMSI Details [/api/imsi/:imsi_number]
 
 ### Get one IMSI [GET]
 
@@ -58,3 +58,18 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
     + imsi_number: "001020123456275" (string) - Number of the IMSI to delete
 
 + Response 204
+ 
+## IMSI Profiles [/api/imsi/:imsi_number/profile]
+
+### Profile Name associated with Imsi [GET]
+
++ Parameters
+    + imsi_number: "001020123456275" (string) - Number of the IMSI
+
++ Response 200 (application/json)
+
+        [      
+          "Profile1",
+          "Profile2",
+          "Profile3"
+        ]
