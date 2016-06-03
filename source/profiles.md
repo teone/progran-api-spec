@@ -27,7 +27,7 @@
               "A5Thresh2Rsrp": -95,
               "A5Thresh2Rsrq": -8,
               "HysteresisA5": 1
-            }
+            },
             "IMSIRuleArray" : [
               "001020123456273",
               "001020123456272" 
@@ -53,7 +53,7 @@
               "A5Thresh2Rsrp": -95,
               "A5Thresh2Rsrq": -8,
               "HysteresisA5": 1
-            }
+            },
             "IMSIRuleArray" : [
               "001020123456273",
               "001020123456272" 
@@ -79,7 +79,7 @@
               "A5Thresh2Rsrp": -95,
               "A5Thresh2Rsrq": -8,
               "HysteresisA5": 1
-            }
+            },
             "IMSIRuleArray" : [
               "001020123456273",
               "001020123456272" 
