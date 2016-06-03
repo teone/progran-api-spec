@@ -123,7 +123,7 @@
           "ErrCode": "Not Registered"
         }
 
-## Profiles Details [/api/profile/:profile_name]
+## Profiles Details [/api/profile/{profile_name}]
 
 ### Get one Profiles [GET]
 
@@ -166,7 +166,7 @@
 
 + Response 204
 
-## Profiles IMSI's Collection [/api/profile/:profile_name/imsi]
+## Profiles IMSI's Collection [/api/profile/{profile_name}/imsi]
 
 ### Add an IMSI to a Profile [PUT]
 
@@ -195,7 +195,7 @@
 
 + Response 204
 
-## Profiles IMSI's Details [/api/profile/:profile_name/:imsi_number]
+## Profiles IMSI's Details [/api/profile/{profile_name}/{imsi_number}]
 
 ### Delete one IMSI from a Profile [DELETE]
 

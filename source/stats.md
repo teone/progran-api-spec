@@ -1,6 +1,6 @@
 # Group Stats
 
-# IMSI stats [/api/stats/imsi/:imsi/:counts]
+# IMSI stats [/api/stats/imsi/{imsi}/{counts}]
 
 ### Get Stats [GET]
 
@@ -23,7 +23,7 @@
           },
         ]
 
-## Profile stats [/api/stats/profile/:profile_name/:counts]
+## Profile stats [/api/stats/profile/{profile_name}/{counts}]
 
 ### Get Stats [GET]
 
@@ -67,7 +67,7 @@
           }
         ]
 
-## E NODE B stats [/api/stats/enodeb/:eNBId/:counts]
+## E NODE B stats [/api/stats/enodeb/{eNBId}/{counts}]
 
 ### Get Stats [GET]
 

@@ -222,7 +222,7 @@
 
 + Response 204
 
-## E NODE B Profiles Details [/api/profile/{eNBId}/:profile_name]
+## E NODE B Profiles Details [/api/profile/{eNBId}/{profile_name}]
 
 ### Delete one Profile from E NODE B [DELETE]
 

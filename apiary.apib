@@ -227,7 +227,7 @@ FORMAT: 1A
 
 + Response 204
 
-## E NODE B Profiles Details [/api/profile/{eNBId}/:profile_name]
+## E NODE B Profiles Details [/api/profile/{eNBId}/{profile_name}]
 
 ### Delete one Profile from E NODE B [DELETE]
 
@@ -277,7 +277,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           "ErrCode": "Not Registered"
         }
 
-## IMSI Details [/api/imsi/:imsi_number]
+## IMSI Details [/api/imsi/{imsi_number}]
 
 ### Get one IMSI [GET]
 
@@ -301,7 +301,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
  
-## IMSI Profiles [/api/imsi/:imsi_number/profile]
+## IMSI Profiles [/api/imsi/{imsi_number}/profile]
 
 ### Profile Name associated with Imsi [GET]
 
@@ -442,7 +442,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           "ErrCode": "Not Registered"
         }
 
-## Profiles Details [/api/profile/:profile_name]
+## Profiles Details [/api/profile/{profile_name}]
 
 ### Get one Profiles [GET]
 
@@ -485,7 +485,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
 
-## Profiles IMSI's Collection [/api/profile/:profile_name/imsi]
+## Profiles IMSI's Collection [/api/profile/{profile_name}/imsi]
 
 ### Add an IMSI to a Profile [PUT]
 
@@ -514,7 +514,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
 
-## Profiles IMSI's Details [/api/profile/:profile_name/:imsi_number]
+## Profiles IMSI's Details [/api/profile/{profile_name}/{imsi_number}]
 
 ### Delete one IMSI from a Profile [DELETE]
 
@@ -528,7 +528,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
  
 # Group Stats
 
-# IMSI stats [/api/stats/imsi/:imsi/:counts]
+# IMSI stats [/api/stats/imsi/{imsi}/{counts}]
 
 ### Get Stats [GET]
 
@@ -551,7 +551,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           },
         ]
 
-## Profile stats [/api/stats/profile/:profile_name/:counts]
+## Profile stats [/api/stats/profile/{profile_name}/{counts}]
 
 ### Get Stats [GET]
 
@@ -595,7 +595,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           }
         ]
 
-## E NODE B stats [/api/stats/enodeb/:eNBId/:counts]
+## E NODE B stats [/api/stats/enodeb/{eNBId}/{counts}]
 
 ### Get Stats [GET]
 

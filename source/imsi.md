@@ -35,7 +35,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           "ErrCode": "Not Registered"
         }
 
-## IMSI Details [/api/imsi/:imsi_number]
+## IMSI Details [/api/imsi/{imsi_number}]
 
 ### Get one IMSI [GET]
 
@@ -59,7 +59,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
  
-## IMSI Profiles [/api/imsi/:imsi_number/profile]
+## IMSI Profiles [/api/imsi/{imsi_number}/profile]
 
 ### Profile Name associated with Imsi [GET]
 
