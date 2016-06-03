@@ -21,6 +21,21 @@
               " Profile2",
               " Profile3"
             ]
+          },
+          {
+            "eNBId": 592,
+            "Description": "Maslak-12",
+            "Status": 1,
+            "IpAddr": "10.1.49.200",
+            "GpsCoordinate": {
+              "Latitude": 38.492425,
+              "Longitude": 126.031008
+            },
+            "ProfileArray" :[
+              " Profile1",
+              " Profile2",
+              " Profile3"
+            ]
           }
         ]
 
