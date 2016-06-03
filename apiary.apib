@@ -18,8 +18,8 @@ FORMAT: 1A
             "Status": 1,
             "IpAddr": "10.1.49.200",
             "GpsCoordinate": {
-              "Latitude": 37.492425,
-              "Longitude": 127.031008
+              "Latitude": 37.7749290,
+              "Longitude": -122.4194160 
             },
             "ProfileArray" :[
               " Profile1",
@@ -33,8 +33,23 @@ FORMAT: 1A
             "Status": 1,
             "IpAddr": "10.1.49.200",
             "GpsCoordinate": {
-              "Latitude": 38.492425,
-              "Longitude": 126.031008
+              "Latitude": 37.4418830,
+              "Longitude": -122.1430190 
+            },
+            "ProfileArray" :[
+              " Profile1",
+              " Profile2",
+              " Profile3"
+            ]
+          },
+          {
+            "eNBId": 593,
+            "Description": "Nunc quam tortor, ullamcorper at bibendum eget, vehicula eget neque. Maecenas nulla ligula, sodales at venenatis at, vehicula vel nunc. Mauris et tincidunt nisl.",
+            "Status": 1,
+            "IpAddr": "10.1.49.200",
+            "GpsCoordinate": {
+              "Latitude": 37.8043640,
+              "Longitude": -122.2711140 
             },
             "ProfileArray" :[
               " Profile1",
@@ -42,6 +57,7 @@ FORMAT: 1A
               " Profile3"
             ]
           }
+
         ]
 
 ### Create an E NODE B [PUT]
@@ -224,6 +240,58 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
         [
           {
             "Name": "Profile-30"
+            "DlSchedType": "RR",
+            "DlAllocRBRate": 30,
+            "UlSchedType": "RR",
+            "UlAllocRBRate": 30,
+            "Start": "15/05/2015 9:00",
+            "End": "15/05/2015 18:00",
+            "AdmControl": 0
+            "CellIndividualOffset": 0, 
+            "Handover"    : {
+              "A3offset"      : 2,
+              "HysteresisA3"  : 1,
+              "A5TriggerType" : 0,
+              "Rsrq" : 1,
+              "A5Thresh1Rsrp" : -97,
+              "A5Thresh1Rsrq" : -10,
+              "A5Thresh2Rsrp" : -95,
+              "A5Thresh2Rsrq" : -8,
+              "HysteresisA5"  : 1,
+            }
+            "IMSIRuleArray" : [
+              "001020123456273",
+              "001020123456272" 
+            ]
+          },
+          {
+            "Name": "Profile-31"
+            "DlSchedType": "RR",
+            "DlAllocRBRate": 30,
+            "UlSchedType": "RR",
+            "UlAllocRBRate": 30,
+            "Start": "15/05/2015 9:00",
+            "End": "15/05/2015 18:00",
+            "AdmControl": 0
+            "CellIndividualOffset": 0, 
+            "Handover"    : {
+              "A3offset"      : 2,
+              "HysteresisA3"  : 1,
+              "A5TriggerType" : 0,
+              "Rsrq" : 1,
+              "A5Thresh1Rsrp" : -97,
+              "A5Thresh1Rsrq" : -10,
+              "A5Thresh2Rsrp" : -95,
+              "A5Thresh2Rsrq" : -8,
+              "HysteresisA5"  : 1,
+            }
+            "IMSIRuleArray" : [
+              "001020123456273",
+              "001020123456272" 
+            ]
+          },
+          {
+            "Name": "Profile-33"
             "DlSchedType": "RR",
             "DlAllocRBRate": 30,
             "UlSchedType": "RR",

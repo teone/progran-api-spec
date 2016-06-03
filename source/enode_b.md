@@ -13,8 +13,8 @@
             "Status": 1,
             "IpAddr": "10.1.49.200",
             "GpsCoordinate": {
-              "Latitude": 37.492425,
-              "Longitude": 127.031008
+              "Latitude": 37.7749290,
+              "Longitude": -122.4194160 
             },
             "ProfileArray" :[
               " Profile1",
@@ -28,8 +28,23 @@
             "Status": 1,
             "IpAddr": "10.1.49.200",
             "GpsCoordinate": {
-              "Latitude": 38.492425,
-              "Longitude": 126.031008
+              "Latitude": 37.4418830,
+              "Longitude": -122.1430190 
+            },
+            "ProfileArray" :[
+              " Profile1",
+              " Profile2",
+              " Profile3"
+            ]
+          },
+          {
+            "eNBId": 593,
+            "Description": "Nunc quam tortor, ullamcorper at bibendum eget, vehicula eget neque. Maecenas nulla ligula, sodales at venenatis at, vehicula vel nunc. Mauris et tincidunt nisl.",
+            "Status": 1,
+            "IpAddr": "10.1.49.200",
+            "GpsCoordinate": {
+              "Latitude": 37.8043640,
+              "Longitude": -122.2711140 
             },
             "ProfileArray" :[
               " Profile1",
@@ -37,6 +52,7 @@
               " Profile3"
             ]
           }
+
         ]
 
 ### Create an E NODE B [PUT]
