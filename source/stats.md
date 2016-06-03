@@ -88,6 +88,11 @@
               },
               {
                 "Time"      :   1464986495,
+                "DlBitrate" :   10,
+                "UlBitrate" :   20 
+              },
+              {
+                "Time"      :   1464982895,
                 "DlBitrate" :   8,
                 "UlBitrate" :   0 
               }
@@ -98,12 +103,17 @@
             "StatsArray" :[
               {
                 "Time"      :   1464990095,
-                "DlBitrate" :   10,
+                "DlBitrate" :   13,
                 "UlBitrate" :   20 
               },
               {
                 "Time"      :   1464986495,
-                "DlBitrate" :   8,
+                "DlBitrate" :   10,
+                "UlBitrate" :   20 
+              },
+              {
+                "Time"      :   1464982895,
+                "DlBitrate" :   4,
                 "UlBitrate" :   0 
               }
             ]
