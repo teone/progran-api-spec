@@ -78,7 +78,7 @@
 ### Get one E NODE B [GET]
 
 + Parameters
-    + eNBId: "591" (number) - Number of the E NODE B to retrieve
+    + eNBId: 591 (number) - Number of the E NODE B to retrieve
 
 + Response 200 (application/json)
 
@@ -101,7 +101,7 @@
 ### Delete one E NODE B [DELETE]
 
 + Parameters
-    + eNBId: "591" (number) - Number of the E NODE B to delete
+    + eNBId: 591 (number) - Number of the E NODE B to delete
 
 + Response 204
 
@@ -110,7 +110,7 @@
 ### Get a Profile list associated to E NODE B [GET]
 
 + Parameters
-    + eNBId: "591" (number) - Number of the E NODE B to retrieve
+    + eNBId: 591 (number) - Number of the E NODE B to retrieve
 
 + Response 200 (application/json)
       
@@ -198,7 +198,7 @@
 ### Add an Profile to E NODE B [PUT]
 
 + Parameters
-    + eNBId: "591" (number) - Number of the E NODE B to retrieve
+    + eNBId: 591 (number) - Number of the E NODE B to retrieve
 
 + Request (application/json)
 
@@ -218,7 +218,7 @@
 ### Delete all Profile from E NODE B [DELETE]
 
 + Parameters
-    + eNBId: "591" (number) - Number of the E NODE B to retrieve
+    + eNBId: 591 (number) - Number of the E NODE B to retrieve
 
 + Response 204
 
@@ -227,7 +227,7 @@
 ### Delete one Profile from E NODE B [DELETE]
 
 + Parameters
-    + eNBId: "591" (number) - Number of the E NODE B to retrieve
+    + eNBId: 591 (number) - Number of the E NODE B to retrieve
     + profile_name: "Profile-30" (string) - Name of the Profiles
 
 + Response 204
