@@ -73,7 +73,7 @@
           "ErrCode": "Not Registered"
         }
 
-## E NODE B Details [/api/enodeb/:eNBId]
+## E NODE B Details [/api/enodeb/{eNBId}]
 
 ### Get one E NODE B [GET]
 
@@ -105,7 +105,7 @@
 
 + Response 204
 
-## E NODE B Profiles Collection [/api/enodeb/:eNBId/profile]
+## E NODE B Profiles Collection [/api/enodeb/{eNBId}/profile]
 
 ### Get a Profile list associated to E NODE B [GET]
 
@@ -222,7 +222,7 @@
 
 + Response 204
 
-## E NODE B Profiles Details [/api/profile/:eNBId/:profile_name]
+## E NODE B Profiles Details [/api/profile/{eNBId}/:profile_name]
 
 ### Delete one Profile from E NODE B [DELETE]
 
