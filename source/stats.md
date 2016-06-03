@@ -89,12 +89,12 @@
               {
                 "Time"      :   1464986495,
                 "DlBitrate" :   10,
-                "UlBitrate" :   20 
+                "UlBitrate" :   30 
               },
               {
                 "Time"      :   1464982895,
                 "DlBitrate" :   8,
-                "UlBitrate" :   0 
+                "UlBitrate" :   10 
               }
             ]
           },
@@ -104,17 +104,17 @@
               {
                 "Time"      :   1464990095,
                 "DlBitrate" :   13,
-                "UlBitrate" :   20 
+                "UlBitrate" :   25 
               },
               {
                 "Time"      :   1464986495,
                 "DlBitrate" :   10,
-                "UlBitrate" :   20 
+                "UlBitrate" :   12 
               },
               {
                 "Time"      :   1464982895,
                 "DlBitrate" :   4,
-                "UlBitrate" :   0 
+                "UlBitrate" :   26 
               }
             ]
           }
