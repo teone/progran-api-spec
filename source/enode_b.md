@@ -9,7 +9,7 @@
         [
           {
             "eNBId": 591,
-            "Description": "Maslak-12",
+            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ornare eros, sit amet euismod mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet pharetra sapien, non interdum ante.",
             "Status": 1,
             "IpAddr": "10.1.49.200",
             "GpsCoordinate": {
@@ -24,7 +24,7 @@
           },
           {
             "eNBId": 592,
-            "Description": "Maslak-12",
+            "Description": "Proin et sapien sit amet ligula elementum molestie et eu ligula. Integer non urna vitae velit consectetur volutpat eget hendrerit eros. Nam varius, ex sit amet feugiat condimentum, velit risus iaculis elit, eu hendrerit est tortor eget augue.",
             "Status": 1,
             "IpAddr": "10.1.49.200",
             "GpsCoordinate": {
