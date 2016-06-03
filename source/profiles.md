@@ -8,7 +8,7 @@
       
         [
           {
-            "Name": "Profile-30"
+            "Name": "Profile-30",
             "DlSchedType": "RR",
             "DlAllocRBRate": 30,
             "UlSchedType": "RR",
@@ -34,7 +34,7 @@
             ]
           },
           {
-            "Name": "Profile-31"
+            "Name": "Profile-31",
             "DlSchedType": "RR",
             "DlAllocRBRate": 30,
             "UlSchedType": "RR",
@@ -60,7 +60,7 @@
             ]
           },
           {
-            "Name": "Profile-32"
+            "Name": "Profile-32",
             "DlSchedType": "RR",
             "DlAllocRBRate": 30,
             "UlSchedType": "RR",
