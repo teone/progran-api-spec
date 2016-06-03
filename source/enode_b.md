@@ -15,7 +15,7 @@
             "GpsCoordinate": {
               "Latitude": 37.492425,
               "Longitude": 127.031008
-            }
+            },
             "ProfileArray" :[
               " Profile1",
               " Profile2",
