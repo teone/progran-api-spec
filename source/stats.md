@@ -12,15 +12,15 @@
       
         [
           {
-            "Time"      :   123333   //Log time in milliseconds 
-            "DlBitrate" :   10,     //Download bitrate  
-            "UlBitrate" :   20      // Upload bitrate 
+            "Time"      :   123333 
+            "DlBitrate" :   10,
+            "UlBitrate" :   20
           },
           {
-            "Time"      :   127333   //Log time in milliseconds
-            "DlBitrate" :   8,     //Download bitrate  
-            "UlBitrate" :   0      // Upload bitrate 
-          },
+            "Time"      :   127333
+            "DlBitrate" :   8,
+            "UlBitrate" :   0
+          }
         ]
 
 ## Profile stats [/api/stats/profile/{profile_name}/{counts}]
@@ -38,30 +38,30 @@
             "Enodeb"  : 312,
             "StatsArray" :[
               { 
-                "Time"      :   123333   //Log time in miliseconds
-                "DlBitrate" :   10,     //Download bitrate  
-                "UlBitrate" :   20      // Upload bitrate 
+                "Time"      :   123333
+                "DlBitrate" :   10,
+                "UlBitrate" :   20 
               },
               {
-                "Time"      :   126333   //Log time in miliseconds
-                "DlBitrate" :   8,     //Download bitrate  
-                "UlBitrate" :   0      // Upload bitrate 
-              },
+                "Time"      :   126333
+                "DlBitrate" :   8,
+                "UlBitrate" :   0 
+              }
             ]
           },
           {
             "Enodeb"  : 315,
             "StatsArray" :[
                 {
-                  "Time"      :   127333   //Log time in miliseconds
-                  "DlBitrate" :   10,     //Download bitrate  
-                  "UlBitrate" :   20      // Upload bitrate 
+                  "Time"      :   127333
+                  "DlBitrate" :   10,
+                  "UlBitrate" :   20 
                 },
                 {
-                  "Time"      :   129333   //Log time in miliseconds
-                  "DlBitrate" :   8,     //Download bitrate  
-                  "UlBitrate" :   0      // Upload bitrate 
-                },
+                  "Time"      :   129333
+                  "DlBitrate" :   8,
+                  "UlBitrate" :   0 
+                }
               }
             ]
           }
@@ -82,14 +82,14 @@
             "Profile"  : "Profile-1",
             "StatsArray" :[
               {
-                "Time"      :   123333   //Log time in miliseconds
-                "DlBitrate" :   10,     //Download bitrate  
-                "UlBitrate" :   20      // Upload bitrate 
+                "Time"      :   123333
+                "DlBitrate" :   10,
+                "UlBitrate" :   20 
               },
               {
-                "Time"      :   129333   //Log time in miliseconds
-                "DlBitrate" :   8,     //Download bitrate  
-                "UlBitrate" :   0      // Upload bitrate 
+                "Time"      :   129333
+                "DlBitrate" :   8,
+                "UlBitrate" :   0 
               }
             ]
           },
@@ -97,14 +97,14 @@
             "Profile"  : "Profile-1"
             "StatsArray" :[
               {
-                "Time"      :   121333   //Log time in miliseconds
-                "DlBitrate" :   10,     //Download bitrate  
-                "UlBitrate" :   20      // Upload bitrate 
+                "Time"      :   121333
+                "DlBitrate" :   10,
+                "UlBitrate" :   20 
               },
               {
-                "Time"      :   127333   //Log time in miliseconds
-                "DlBitrate" :   8,     //Download bitrate  
-                "UlBitrate" :   0      // Upload bitrate 
+                "Time"      :   127333
+                "DlBitrate" :   8,
+                "UlBitrate" :   0 
               }
             ]
           }
