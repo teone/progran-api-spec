@@ -82,12 +82,12 @@
             "Profile"  : "Profile-1",
             "StatsArray" :[
               {
-                "Time"      :   123333
+                "Time"      :   123333,
                 "DlBitrate" :   10,
                 "UlBitrate" :   20 
               },
               {
-                "Time"      :   129333
+                "Time"      :   129333,
                 "DlBitrate" :   8,
                 "UlBitrate" :   0 
               }
@@ -97,12 +97,12 @@
             "Profile"  : "Profile-1"
             "StatsArray" :[
               {
-                "Time"      :   121333
+                "Time"      :   121333,
                 "DlBitrate" :   10,
                 "UlBitrate" :   20 
               },
               {
-                "Time"      :   127333
+                "Time"      :   127333,
                 "DlBitrate" :   8,
                 "UlBitrate" :   0 
               }
