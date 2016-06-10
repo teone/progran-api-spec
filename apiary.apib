@@ -605,46 +605,52 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 200 (application/json)
 
-        [
-          {
-            "Profile"  : "Profile-1",
-            "StatsArray" :[
-              {
-                "Time"      :   1464990095,
-                "DlBitrate" :   10,
-                "UlBitrate" :   20 
-              },
-              {
-                "Time"      :   1464986495,
-                "DlBitrate" :   10,
-                "UlBitrate" :   30 
-              },
-              {
-                "Time"      :   1464982895,
-                "DlBitrate" :   8,
-                "UlBitrate" :   10 
-              }
-            ]
-          },
-          {
-            "Profile"  : "Profile-2",
-            "StatsArray" :[
-              {
-                "Time"      :   1464990095,
-                "DlBitrate" :   13,
-                "UlBitrate" :   25 
-              },
-              {
-                "Time"      :   1464986495,
-                "DlBitrate" :   10,
-                "UlBitrate" :   12 
-              },
-              {
-                "Time"      :   1464982895,
-                "DlBitrate" :   4,
-                "UlBitrate" :   26 
-              }
-            ]
-          }
-        ]
+        {
+          "ConnectedUE": 246,
+          "ActiveProfiles": 827,
+          "TotalProfiles": 827,
+          "Uptime": 2938947897379,
+          "ProfileArray": [
+            {
+              "Profile"  : "Profile-1",
+              "StatsArray" :[
+                {
+                  "Time"      :   1464990095,
+                  "DlBitrate" :   10,
+                  "UlBitrate" :   20 
+                },
+                {
+                  "Time"      :   1464986495,
+                  "DlBitrate" :   10,
+                  "UlBitrate" :   30 
+                },
+                {
+                  "Time"      :   1464982895,
+                  "DlBitrate" :   8,
+                  "UlBitrate" :   10 
+                }
+              ]
+            },
+            {
+              "Profile"  : "Profile-2",
+              "StatsArray" :[
+                {
+                  "Time"      :   1464990095,
+                  "DlBitrate" :   13,
+                  "UlBitrate" :   25 
+                },
+                {
+                  "Time"      :   1464986495,
+                  "DlBitrate" :   10,
+                  "UlBitrate" :   12 
+                },
+                {
+                  "Time"      :   1464982895,
+                  "DlBitrate" :   4,
+                  "UlBitrate" :   26 
+                }
+              ]
+            }
+          ]
+        }
 
