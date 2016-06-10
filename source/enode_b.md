@@ -118,7 +118,7 @@
           {
             "Name": "Profile-30",
             "DlSchedType": "RR",
-            "DlAllocRBRate": 30,
+            "DlAllocRBRate": 10,
             "UlSchedType": "RR",
             "UlAllocRBRate": 30,
             "Start": "15/05/2015 9:00",
@@ -144,9 +144,9 @@
           {
             "Name": "Profile-31",
             "DlSchedType": "RR",
-            "DlAllocRBRate": 30,
+            "DlAllocRBRate": 20,
             "UlSchedType": "RR",
-            "UlAllocRBRate": 30,
+            "UlAllocRBRate": 10,
             "Start": "15/05/2015 9:00",
             "End": "15/05/2015 18:00",
             "AdmControl": 0,
@@ -170,9 +170,9 @@
           {
             "Name": "Profile-32",
             "DlSchedType": "RR",
-            "DlAllocRBRate": 30,
+            "DlAllocRBRate": 45,
             "UlSchedType": "RR",
-            "UlAllocRBRate": 30,
+            "UlAllocRBRate": 5,
             "Start": "15/05/2015 9:00",
             "End": "15/05/2015 18:00",
             "AdmControl": 0,
