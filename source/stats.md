@@ -81,7 +81,7 @@
           "ConnectedUE": 246,
           "ActiveProfiles": 827,
           "TotalProfiles": 827,
-          "Uptime": 2938947897379,
+          "Uptime": 293894,
           "ProfileArray": [
             {
               "Profile"  : "Profile-1",
