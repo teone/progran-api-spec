@@ -148,3 +148,13 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
             ]
           }
         ]
+        
+## IMSI Profiles Details [/api/profile/{imsi_number}/{profile_name}]
+
+### Delete one Profile from E NODE B [DELETE]
+
++ Parameters
+    + imsi_number: "001020123456275" (string) - Number of the IMSI to retrieve
+    + profile_name: "Profile-30" (string) - Name of the Profiles
+
++ Response 204
