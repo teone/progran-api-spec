@@ -149,7 +149,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           }
         ]
         
-## IMSI Profiles Details [/api/profile/{imsi_number}/{profile_name}]
+## IMSI Profiles Details [/api/imsi/{imsi_number}/profile/{profile_name}]
 
 ### Delete one Profile from IMSI [DELETE]
 
