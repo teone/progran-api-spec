@@ -155,6 +155,6 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Parameters
     + imsi_number: "001020123456275" (string) - Number of the IMSI to retrieve
-    + profile_name: "Profile-30" (string) - Name of the Profiles
+    + profile_name: "Profile30" (string) - Name of the Profiles
 
 + Response 204
