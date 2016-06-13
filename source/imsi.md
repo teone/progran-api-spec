@@ -12,10 +12,10 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
         [
           {
             "IMSI": "001020123456275",
-            "UeStatus": 0
-            "Enodeb": “Enodeb-310”
+            "UeStatus": 0;
+            "Enodeb": “Enodeb-310”,
             "DlMeasBitRate": 10000000,
-            "UlMeasBitRate": 10000000,
+            "UlMeasBitRate": 10000000
           }
         ]
 
@@ -25,7 +25,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 + Request (application/json)
 
         {
-            "IMSI": "001020123456273",
+            "IMSI": "001020123456273"
         }
 
 + Response 200 (application/json)
@@ -46,10 +46,10 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
         {
           "IMSI": "001020123456275",
-          "UeStatus": 0
-          "Enodeb": “Enodeb-310”
+          "UeStatus": 0,
+          "Enodeb": “Enodeb-310”,
           "DlMeasBitRate": 10000000,
-          "UlMeasBitRate": 10000000,
+          "UlMeasBitRate": 10000000
         }
 
 ### Delete one IMSI [DELETE]
