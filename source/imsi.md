@@ -16,7 +16,14 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
             "Enodeb": "Enodeb-310",
             "DlMeasBitRate": 10000000,
             "UlMeasBitRate": 10000000
-          }
+          },
+          {
+              "IMSI": "001083903456275",
+              "UeStatus": 1,
+              "Enodeb": "Enodeb-320",
+              "DlMeasBitRate": 8000000,
+              "UlMeasBitRate": 8000000
+            }
         ]
 
 
