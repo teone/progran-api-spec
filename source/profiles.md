@@ -128,7 +128,7 @@
 ### Get one Profiles [GET]
 
 + Parameters
-    + profile_name: "Profile-30" (string) - Name of the Profiles to retrieve
+    + profile_name: Profile30 (string) - Name of the Profiles to retrieve
 
 + Response 200 (application/json)
 
