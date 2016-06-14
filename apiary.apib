@@ -564,7 +564,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
 
-## Profiles IMSI's Details [/api/profile/{profile_name}/{imsi_number}]
+## Profiles IMSI's Details [/api/profile/{profile_name}/imsi/{imsi_number}]
 
 ### Delete one IMSI from a Profile [DELETE]
 
@@ -574,6 +574,65 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
 
+## Profiles E Node B's Collection [/api/profile/{profile_name}/enodeb]
+
+## Get E Node B list for a profile [GET]
+
++ Parameters
+    + profile_name: Profile30 (string) - Name of the Profiles to retrieve
+
++ Response 200 (application/json)
+    
+         [
+                   {
+                     "eNBId": 591,
+                     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ornare eros, sit amet euismod mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet pharetra sapien, non interdum ante.",
+                     "Status": 1,
+                     "IpAddr": "10.1.49.200",
+                     "GpsCoordinate": {
+                       "Latitude": 37.7749290,
+                       "Longitude": -122.4194160 
+                     },
+                     "ProfileArray" :[
+                       " Profile1",
+                       " Profile2",
+                       " Profile3"
+                     ]
+                   },
+                   {
+                     "eNBId": 593,
+                     "Description": "Nunc quam tortor, ullamcorper at bibendum eget, vehicula eget neque. Maecenas nulla ligula, sodales at venenatis at, vehicula vel nunc. Mauris et tincidunt nisl.",
+                     "Status": 1,
+                     "IpAddr": "10.1.49.200",
+                     "GpsCoordinate": {
+                       "Latitude": 37.8043640,
+                       "Longitude": -122.2711140 
+                     },
+                     "ProfileArray" :[
+                       " Profile1",
+                       " Profile2",
+                       " Profile3"
+                     ]
+                   }
+         
+                 ]
+                 
+### Delete all E Node B from a Profile [DELETE]
+
++ Parameters
+    + profile_name: Profile30 (string) - Name of the Profiles to retrieve
+
++ Response 204
+
+## Profiles E Node B's Details [/api/profile/{profile_name}/enodeb/{enode_id}]
+
+### Delete one E Node B from a Profile [DELETE]
+
++ Parameters
+    + profile_name: Profile30 (string) - Name of the Profiles to retrieve
+    + enode_id: 593 (number) - Number of the IMSI
+
++ Response 204
  
  
 # Group Stats
