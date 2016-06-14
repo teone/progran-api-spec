@@ -142,16 +142,16 @@
             "End": "15/05/2015 18:00",
             "AdmControl": 0,
             "CellIndividualOffset": 0, 
-            "Handover"    : {
-              "A3offset"      : 2,
-              "HysteresisA3"  : 1,
-              "A5TriggerType" : 0,
-              "Rsrq" : 1,
-              "A5Thresh1Rsrp" : -97,
-              "A5Thresh1Rsrq" : -10,
-              "A5Thresh2Rsrp" : -95,
-              "A5Thresh2Rsrq" : -8,
-              "HysteresisA5"  : 1
+            "Handover": {
+              "A3offset": 2,
+              "HysteresisA3": 1,
+              "A5TriggerType": 0,
+              "Rsrq": 1,
+              "A5Thresh1Rsrp": -97,
+              "A5Thresh1Rsrq": -10,
+              "A5Thresh2Rsrp": -95,
+              "A5Thresh2Rsrq": -8,
+              "HysteresisA5": 1
             },
             "IMSIRuleArray" : [
               "001020123456273",
