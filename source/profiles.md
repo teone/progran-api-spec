@@ -168,6 +168,23 @@
 
 ## Profiles IMSI's Collection [/api/profile/{profile_name}/imsi]
 
+## Get IMSI list for a profile [GET]
+
++ Parameters
+    + profile_name: "Profile-30" (string) - Name of the Profiles to retrieve
+
++ Request (application/json)
+    
+         [
+           {
+             "IMSI": "001020123456275",
+             "UeStatus": 0,
+             "Enodeb": "Enodeb-310",
+             "DlMeasBitRate": 10000000,
+             "UlMeasBitRate": 10000000
+           }
+         ]
+
 ### Add an IMSI to a Profile [PUT]
 
 + Parameters
