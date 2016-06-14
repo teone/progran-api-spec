@@ -162,7 +162,7 @@
 ### Delete one Profiles [DELETE]
 
 + Parameters
-    + profile_name: "Profile-30" (string) - Name of the Profiles to delete
+    + profile_name: Profile30 (string) - Name of the Profiles to delete
 
 + Response 204
 
@@ -171,7 +171,7 @@
 ## Get IMSI list for a profile [GET]
 
 + Parameters
-    + profile_name: "Profile-30" (string) - Name of the Profiles to retrieve
+    + profile_name: Profile30 (string) - Name of the Profiles to retrieve
 
 + Request (application/json)
     
@@ -188,7 +188,7 @@
 ### Add an IMSI to a Profile [PUT]
 
 + Parameters
-    + profile_name: "Profile-30" (string) - Name of the Profiles to retrieve
+    + profile_name: Profile30 (string) - Name of the Profiles to retrieve
 
 + Request (application/json)
 
@@ -208,7 +208,7 @@
 ### Delete all IMSI from a Profile [DELETE]
 
 + Parameters
-    + profile_name: "Profile-30" (string) - Name of the Profiles to retrieve
+    + profile_name: Profile30 (string) - Name of the Profiles to retrieve
 
 + Response 204
 
@@ -217,7 +217,7 @@
 ### Delete one IMSI from a Profile [DELETE]
 
 + Parameters
-    + profile_name: "Profile-30" (string) - Name of the Profiles to retrieve
+    + profile_name: Profile30 (string) - Name of the Profiles to retrieve
     + imsi_number: "001020123456275" (string) - Number of the IMSI
 
 + Response 204
