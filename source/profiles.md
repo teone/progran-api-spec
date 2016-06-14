@@ -133,14 +133,14 @@
 + Response 200 (application/json)
 
         {
-            "Name": "Profile-30"
+            "Name": "Profile-30",
             "DlSchedType": "RR",
             "DlAllocRBRate": 30,
             "UlSchedType": "RR",
             "UlAllocRBRate": 30,
             "Start": "15/05/2015 9:00",
             "End": "15/05/2015 18:00",
-            "AdmControl": 0
+            "AdmControl": 0,
             "CellIndividualOffset": 0, 
             "Handover"    : {
               "A3offset"      : 2,
@@ -151,13 +151,13 @@
               "A5Thresh1Rsrq" : -10,
               "A5Thresh2Rsrp" : -95,
               "A5Thresh2Rsrq" : -8,
-              "HysteresisA5"  : 1,
-            }
+              "HysteresisA5"  : 1
+            },
             "IMSIRuleArray" : [
               "001020123456273",
               "001020123456272" 
             ]
-          }
+        }
 
 ### Delete one Profiles [DELETE]
 
