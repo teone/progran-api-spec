@@ -173,7 +173,7 @@
 + Parameters
     + profile_name: Profile30 (string) - Name of the Profiles to retrieve
 
-+ Request (application/json)
++ Response 200 (application/json)
     
          [
            {
