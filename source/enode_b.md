@@ -7,7 +7,7 @@
 + Response 200 (application/json)
       
         {
-            EnodeBArray: [
+            "EnodeBArray": [
               {
                 "eNBId": 591,
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ornare eros, sit amet euismod mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet pharetra sapien, non interdum ante.",
