@@ -11,54 +11,55 @@ FORMAT: 1A
 
 + Response 200 (application/json)
       
-        [
-          {
-            "eNBId": 591,
-            "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ornare eros, sit amet euismod mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet pharetra sapien, non interdum ante.",
-            "Status": 1,
-            "IpAddr": "10.1.49.200",
-            "GpsCoordinate": {
-              "Latitude": 37.7749290,
-              "Longitude": -122.4194160 
-            },
-            "ProfileArray" :[
-              " Profile1",
-              " Profile2",
-              " Profile3"
+        {
+            EnodeBArray: [
+              {
+                "eNBId": 591,
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ornare eros, sit amet euismod mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet pharetra sapien, non interdum ante.",
+                "Status": 1,
+                "IpAddr": "10.1.49.200",
+                "GpsCoordinate": {
+                  "Latitude": 37.7749290,
+                  "Longitude": -122.4194160 
+                },
+                "ProfileArray" :[
+                  " Profile1",
+                  " Profile2",
+                  " Profile3"
+                ]
+              },
+              {
+                "eNBId": 592,
+                "Description": "Proin et sapien sit amet ligula elementum molestie et eu ligula. Integer non urna vitae velit consectetur volutpat eget hendrerit eros. Nam varius, ex sit amet feugiat condimentum, velit risus iaculis elit, eu hendrerit est tortor eget augue.",
+                "Status": 1,
+                "IpAddr": "10.1.49.200",
+                "GpsCoordinate": {
+                  "Latitude": 37.4418830,
+                  "Longitude": -122.1430190 
+                },
+                "ProfileArray" :[
+                  " Profile1",
+                  " Profile2",
+                  " Profile3"
+                ]
+              },
+              {
+                "eNBId": 593,
+                "Description": "Nunc quam tortor, ullamcorper at bibendum eget, vehicula eget neque. Maecenas nulla ligula, sodales at venenatis at, vehicula vel nunc. Mauris et tincidunt nisl.",
+                "Status": 1,
+                "IpAddr": "10.1.49.200",
+                "GpsCoordinate": {
+                  "Latitude": 37.8043640,
+                  "Longitude": -122.2711140 
+                },
+                "ProfileArray" :[
+                  " Profile1",
+                  " Profile2",
+                  " Profile3"
+                ]
+              }
             ]
-          },
-          {
-            "eNBId": 592,
-            "Description": "Proin et sapien sit amet ligula elementum molestie et eu ligula. Integer non urna vitae velit consectetur volutpat eget hendrerit eros. Nam varius, ex sit amet feugiat condimentum, velit risus iaculis elit, eu hendrerit est tortor eget augue.",
-            "Status": 1,
-            "IpAddr": "10.1.49.200",
-            "GpsCoordinate": {
-              "Latitude": 37.4418830,
-              "Longitude": -122.1430190 
-            },
-            "ProfileArray" :[
-              " Profile1",
-              " Profile2",
-              " Profile3"
-            ]
-          },
-          {
-            "eNBId": 593,
-            "Description": "Nunc quam tortor, ullamcorper at bibendum eget, vehicula eget neque. Maecenas nulla ligula, sodales at venenatis at, vehicula vel nunc. Mauris et tincidunt nisl.",
-            "Status": 1,
-            "IpAddr": "10.1.49.200",
-            "GpsCoordinate": {
-              "Latitude": 37.8043640,
-              "Longitude": -122.2711140 
-            },
-            "ProfileArray" :[
-              " Profile1",
-              " Profile2",
-              " Profile3"
-            ]
-          }
-
-        ]
+        }
 
 ### Create an E NODE B [PUT]
 
