@@ -84,19 +84,23 @@
 + Response 200 (application/json)
 
         {
-          "eNBId": 591,
-          "Description": "Maslak-12",
-          "Status": 1,
-          "IpAddr": "10.1.49.200",
-          "GpsCoordinate": {
-            "Latitude": 37.492425,
-            "Longitude": 127.031008
-          },
-          "ProfileArray" :[
-            " Profile1",
-            " Profile2",
-            " Profile3"
-          ]
+            "EnodeBArray": [
+                {
+                  "eNBId": 591,
+                  "Description": "Maslak-12",
+                  "Status": 1,
+                  "IpAddr": "10.1.49.200",
+                  "GpsCoordinate": {
+                    "Latitude": 37.492425,
+                    "Longitude": 127.031008
+                  },
+                  "ProfileArray" :[
+                    " Profile1",
+                    " Profile2",
+                    " Profile3"
+                  ]
+                }
+            ]
         }
 
 ### Delete one E NODE B [DELETE]
