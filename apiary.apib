@@ -220,7 +220,7 @@ FORMAT: 1A
 Imsi is basic phone number object.
 Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
-## IMSI Collection [/api/imsi]
+## IMSI Collection [/onos/progran/imsi]
 
 ### List all IMSI [GET]
 
@@ -259,7 +259,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           "ErrCode": "Not Registered"
         }
 
-## IMSI Details [/api/imsi/{imsi_number}]
+## IMSI Details [/onos/progran/imsi/{imsi_number}]
 
 ### Get one IMSI [GET]
 
@@ -283,7 +283,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
  
-## IMSI Profiles [/api/imsi/{imsi_number}/profile]
+## IMSI Profiles [/onos/progran/imsi/{imsi_number}/profile]
 
 ### Profile Name associated with Imsi [GET]
 
@@ -347,7 +347,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           }
         ]
         
-## IMSI Profiles Details [/api/imsi/{imsi_number}/profile/{profile_name}]
+## IMSI Profiles Details [/onos/progran/imsi/{imsi_number}/profile/{profile_name}]
 
 ### Delete one Profile from IMSI [DELETE]
 
@@ -360,7 +360,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
  
 # Group Profiles
 
-## Profiles Collection [/api/profile]
+## Profiles Collection [/onos/progran/profile]
 
 ### List all Profiles [GET]
 
@@ -483,7 +483,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           "ErrCode": "Not Registered"
         }
 
-## Profiles Details [/api/profile/{profile_name}]
+## Profiles Details [/onos/progran/profile/{profile_name}]
 
 ### Get one Profiles [GET]
 
@@ -526,7 +526,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
 
-## Profiles IMSI's Collection [/api/profile/{profile_name}/imsi]
+## Profiles IMSI's Collection [/onos/progran/profile/{profile_name}/imsi]
 
 ## Get IMSI list for a profile [GET]
 
@@ -572,7 +572,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
 
-## Profiles IMSI's Details [/api/profile/{profile_name}/imsi/{imsi_number}]
+## Profiles IMSI's Details [/onos/progran/profile/{profile_name}/imsi/{imsi_number}]
 
 ### Delete one IMSI from a Profile [DELETE]
 
@@ -582,7 +582,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
 
-## Profiles E Node B's Collection [/api/profile/{profile_name}/enodeb]
+## Profiles E Node B's Collection [/onos/progran/profile/{profile_name}/enodeb]
 
 ## Get E Node B list for a profile [GET]
 
@@ -632,7 +632,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
 
-## Profiles E Node B's Details [/api/profile/{profile_name}/enodeb/{enode_id}]
+## Profiles E Node B's Details [/onos/progran/profile/{profile_name}/enodeb/{enode_id}]
 
 ### Delete one E Node B from a Profile [DELETE]
 
@@ -645,7 +645,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
  
 # Group Stats
 
-# IMSI stats [/api/stats/imsi/{imsi}/{counts}]
+# IMSI stats [/onos/progran/stats/imsi/{imsi}/{counts}]
 
 ### Get Stats [GET]
 
@@ -668,7 +668,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           }
         ]
 
-## Profile stats [/api/stats/profile/{profile_name}/{counts}]
+## Profile stats [/onos/progran/stats/profile/{profile_name}/{counts}]
 
 ### Get Stats [GET]
 
@@ -712,7 +712,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           }
         ]
 
-## E NODE B stats [/api/stats/enodeb/{eNBId}/{counts}]
+## E NODE B stats [/onos/progran/stats/enodeb/{eNBId}/{counts}]
 
 ### Get Stats [GET]
 

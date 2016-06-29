@@ -1,6 +1,6 @@
 # Group Profiles
 
-## Profiles Collection [/api/profile]
+## Profiles Collection [/onos/progran/profile]
 
 ### List all Profiles [GET]
 
@@ -123,7 +123,7 @@
           "ErrCode": "Not Registered"
         }
 
-## Profiles Details [/api/profile/{profile_name}]
+## Profiles Details [/onos/progran/profile/{profile_name}]
 
 ### Get one Profiles [GET]
 
@@ -166,7 +166,7 @@
 
 + Response 204
 
-## Profiles IMSI's Collection [/api/profile/{profile_name}/imsi]
+## Profiles IMSI's Collection [/onos/progran/profile/{profile_name}/imsi]
 
 ## Get IMSI list for a profile [GET]
 
@@ -212,7 +212,7 @@
 
 + Response 204
 
-## Profiles IMSI's Details [/api/profile/{profile_name}/imsi/{imsi_number}]
+## Profiles IMSI's Details [/onos/progran/profile/{profile_name}/imsi/{imsi_number}]
 
 ### Delete one IMSI from a Profile [DELETE]
 
@@ -222,7 +222,7 @@
 
 + Response 204
 
-## Profiles E Node B's Collection [/api/profile/{profile_name}/enodeb]
+## Profiles E Node B's Collection [/onos/progran/profile/{profile_name}/enodeb]
 
 ## Get E Node B list for a profile [GET]
 
@@ -272,7 +272,7 @@
 
 + Response 204
 
-## Profiles E Node B's Details [/api/profile/{profile_name}/enodeb/{enode_id}]
+## Profiles E Node B's Details [/onos/progran/profile/{profile_name}/enodeb/{enode_id}]
 
 ### Delete one E Node B from a Profile [DELETE]
 

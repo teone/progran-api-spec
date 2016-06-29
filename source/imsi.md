@@ -3,7 +3,7 @@
 Imsi is basic phone number object.
 Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
-## IMSI Collection [/api/imsi]
+## IMSI Collection [/onos/progran/imsi]
 
 ### List all IMSI [GET]
 
@@ -42,7 +42,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           "ErrCode": "Not Registered"
         }
 
-## IMSI Details [/api/imsi/{imsi_number}]
+## IMSI Details [/onos/progran/imsi/{imsi_number}]
 
 ### Get one IMSI [GET]
 
@@ -66,7 +66,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
 
 + Response 204
  
-## IMSI Profiles [/api/imsi/{imsi_number}/profile]
+## IMSI Profiles [/onos/progran/imsi/{imsi_number}/profile]
 
 ### Profile Name associated with Imsi [GET]
 
@@ -130,7 +130,7 @@ Before adding any imsi to profile (Refer to 2.5 ), it must be created.
           }
         ]
         
-## IMSI Profiles Details [/api/imsi/{imsi_number}/profile/{profile_name}]
+## IMSI Profiles Details [/onos/progran/imsi/{imsi_number}/profile/{profile_name}]
 
 ### Delete one Profile from IMSI [DELETE]
 
