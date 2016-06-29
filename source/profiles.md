@@ -137,7 +137,7 @@
 + Response 200 (application/json)
 
         {
-            "ProfileArray": {
+            "ProfileArray": [{
                 "Name": "Profile-30",
                 "DlSchedType": "RR",
                 "DlAllocRBRate": 30,
@@ -163,6 +163,7 @@
                   "001020123456272" 
                 ]
             }
+            ]
         }
 
 ### Delete one Profiles [DELETE]
